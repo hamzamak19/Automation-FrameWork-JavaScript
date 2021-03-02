@@ -5,9 +5,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.IOException;
 
-import static Utils.WebConnector.Driver;
 
-public class Wait {
+public class Wait extends WebConnector{
 
     public Wait() throws IOException {
     }
@@ -49,8 +48,7 @@ public class Wait {
         }
     }
 
-    public static WebDriverWait WaitForWebElement(WebDriver driver) throws IOException {
-//        WebDriver driver = Driver();
+    public static WebDriverWait WaitForWebElement() throws IOException {
         WebDriverWait wait = new WebDriverWait(driver,10);
         return wait;
     }

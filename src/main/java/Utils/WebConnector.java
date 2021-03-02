@@ -1,19 +1,21 @@
 package Utils;
 
-
-import org.apache.commons.lang3.ObjectUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
+
+
+
+
 public class WebConnector {
     public static Properties prop = new Properties();
     public static FileInputStream ip;
+    public static WebDriver driver;
 
     static {
         try {
@@ -25,6 +27,13 @@ public class WebConnector {
 
     public  WebConnector() throws IOException {
 
+        if (driver!=null)
+        {
+
+        }
+        else {
+            driver=Driver();
+        }
     }
 
     public static WebDriver Driver() throws IOException {
@@ -37,15 +46,16 @@ public class WebConnector {
         {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("start-maximized");
-            options.addArguments("headless");
-            ChromeDriver driver = new ChromeDriver(options);
+//            options.addArguments("headless");
+//            ChromeDriver driver = new ChromeDriver(options);
+            driver = new ChromeDriver(options);
             return driver;
         }
         else {
 
             ChromeOptions options = new ChromeOptions();
             options.addArguments("start-maximized");
-            ChromeDriver driver = new ChromeDriver(options);
+            driver = new ChromeDriver(options);
             return driver;
         }
 

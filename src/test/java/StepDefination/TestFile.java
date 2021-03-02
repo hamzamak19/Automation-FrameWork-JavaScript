@@ -18,13 +18,12 @@ import static Utils.WebConnector.Driver;
 import static io.restassured.RestAssured.given;
 
 
-public class TestFile {
+public class TestFile extends WebConnector {
 
     public TestFile() throws IOException {
 
     }
 
-    public WebDriver driver =Driver();
     public Properties prop = new Properties();
     public FileInputStream ip= new FileInputStream("src\\test\\resources\\config.properties");
 
@@ -71,7 +70,7 @@ public class TestFile {
         System.out.println("Parameter = "+Parameter);
         Allure.step("First Feature Line");
         System.out.println("Case Executed.");
-        Wait.WaitForWebElement(driver).until(ExpectedConditions.visibilityOfElementLocated(By.name("q"))).sendKeys("Nazoor");
+        Wait.WaitForWebElement().until(ExpectedConditions.visibilityOfElementLocated(By.name("q"))).sendKeys("Nazoor");
 
     }
 

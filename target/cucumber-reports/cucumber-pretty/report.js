@@ -51,7 +51,7 @@ formatter.match({
   "location": "TestFile.WaitForSeconds(String)"
 });
 formatter.result({
-  "duration": 4760692400,
+  "duration": 5708412200,
   "status": "passed"
 });
 formatter.match({
@@ -64,7 +64,7 @@ formatter.match({
   "location": "TestFile.OpenURL(String)"
 });
 formatter.result({
-  "duration": 3207012799,
+  "duration": 3586465800,
   "status": "passed"
 });
 formatter.match({
@@ -77,7 +77,7 @@ formatter.match({
   "location": "TestFile.WaitForSeconds(String)"
 });
 formatter.result({
-  "duration": 2999507200,
+  "duration": 3000438100,
   "status": "passed"
 });
 });
