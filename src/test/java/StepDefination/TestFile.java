@@ -1,4 +1,5 @@
 package StepDefination;
+import Locators.LocatorClass;
 import Utils.Wait;
 import Utils.WebConnector;
 import cucumber.api.java.en.Given;
@@ -18,7 +19,7 @@ import static Utils.WebConnector.Driver;
 import static io.restassured.RestAssured.given;
 
 
-public class TestFile extends WebConnector {
+public class TestFile extends WebConnector{
 
     public TestFile() throws IOException {
 
@@ -65,12 +66,12 @@ public class TestFile extends WebConnector {
     public void OpenURL(String Parameter) throws IOException {
 
         prop.load(ip);
-        driver.get(Parameter);
+        WebConnector.driver.get(Parameter);
 
         System.out.println("Parameter = "+Parameter);
         Allure.step("First Feature Line");
         System.out.println("Case Executed.");
-        Wait.WaitForWebElement().until(ExpectedConditions.visibilityOfElementLocated(By.name("q"))).sendKeys("Nazoor");
+        LocatorClass.GetInputField().sendKeys("Nazoor Ahmed");
 
     }
 

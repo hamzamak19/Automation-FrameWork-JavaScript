@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Mar 02 17:32:01 PKT 2021","Tue Mar 02 17:32:02 PKT 2021","723","","Scenario: Test Scenario","","Scenario: Test Scenario","Given Wait for Seconds ""1"".","Given Wait for Seconds ""1"".",""
+"passed","Tue Mar 02 17:32:12 PKT 2021","Tue Mar 02 17:32:12 PKT 2021","0","","Scenario: Test Scenario2","","Scenario: Test Scenario2","When Wait for Seconds ""3"".","When Wait for Seconds ""3"".",""
+"passed","Tue Mar 02 17:32:09 PKT 2021","Tue Mar 02 17:32:09 PKT 2021","1","","Scenario: Test Scenario","","Scenario: Test Scenario","When Open URL ""https://Google.com"".","When Open URL ""https://Google.com"".",""
+"passed","Tue Mar 02 17:32:01 PKT 2021","Tue Mar 02 17:32:01 PKT 2021","2","","Scenario: Test Scenario2","","Scenario: Test Scenario2","Given Wait for Seconds ""1"".","Given Wait for Seconds ""1"".",""
+"passed","Tue Mar 02 17:32:09 PKT 2021","Tue Mar 02 17:32:09 PKT 2021","0","","Scenario: Test Scenario2","","Scenario: Test Scenario2","When Open URL ""https://Google.com"".","When Open URL ""https://Google.com"".",""
+"passed","Tue Mar 02 17:32:12 PKT 2021","Tue Mar 02 17:32:12 PKT 2021","0","","Scenario: Test Scenario","","Scenario: Test Scenario","When Wait for Seconds ""3"".","When Wait for Seconds ""3"".",""

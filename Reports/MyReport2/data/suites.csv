@@ -1,7 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Mar 02 12:10:24 PKT 2021","Tue Mar 02 12:10:24 PKT 2021","0","","Scenario: Test Scenario2","","Scenario: Test Scenario2","When Wait for Seconds ""3"".","When Wait for Seconds ""3"".",""
-"passed","Tue Mar 02 12:10:04 PKT 2021","Tue Mar 02 12:10:04 PKT 2021","8","","Scenario: Test Scenario","","Scenario: Test Scenario","Given Wait for Seconds ""3"".","Given Wait for Seconds ""3"".",""
-"passed","Tue Mar 02 12:10:04 PKT 2021","Tue Mar 02 12:10:04 PKT 2021","3","","Scenario: Test Scenario2","","Scenario: Test Scenario2","Given Wait for Seconds ""3"".","Given Wait for Seconds ""3"".",""
-"passed","Tue Mar 02 12:10:17 PKT 2021","Tue Mar 02 12:10:17 PKT 2021","1","","Scenario: Test Scenario","","Scenario: Test Scenario","When Wait for Seconds ""3"".","When Wait for Seconds ""3"".",""
-"passed","Tue Mar 02 12:10:14 PKT 2021","Tue Mar 02 12:10:14 PKT 2021","0","","Scenario: Test Scenario","","Scenario: Test Scenario","When This is First Feature Line ""https://Google.com"".","When This is First Feature Line ""https://Google.com"".",""
-"passed","Tue Mar 02 12:10:21 PKT 2021","Tue Mar 02 12:10:21 PKT 2021","0","","Scenario: Test Scenario2","","Scenario: Test Scenario2","When This is First Feature Line ""https://Facebook.com"".","When This is First Feature Line ""https://Facebook.com"".",""

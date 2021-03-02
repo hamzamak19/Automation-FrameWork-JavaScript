@@ -1,0 +1,61 @@
+[ {
+  "uid" : "d80a6cef8e758d21",
+  "name" : "When Wait for Seconds \"3\".",
+  "time" : {
+    "start" : 1614688332830,
+    "stop" : 1614688332830,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "802072cf8dda2d50",
+  "name" : "When Open URL \"https://Google.com\".",
+  "time" : {
+    "start" : 1614688329919,
+    "stop" : 1614688329919,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff36707ba5cb4228",
+  "name" : "When Wait for Seconds \"3\".",
+  "time" : {
+    "start" : 1614688332938,
+    "stop" : 1614688332938,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e77f5b656d58b6",
+  "name" : "Given Wait for Seconds \"1\".",
+  "time" : {
+    "start" : 1614688321599,
+    "stop" : 1614688321601,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ad9be4477cf7305",
+  "name" : "Given Wait for Seconds \"1\".",
+  "time" : {
+    "start" : 1614688321718,
+    "stop" : 1614688322441,
+    "duration" : 723
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8c95ae2cc6b9650",
+  "name" : "When Open URL \"https://Google.com\".",
+  "time" : {
+    "start" : 1614688329812,
+    "stop" : 1614688329813,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

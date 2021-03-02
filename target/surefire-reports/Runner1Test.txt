@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Runner1Test
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.399 s - in Runner1Test
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.698 s - in Runner1Test

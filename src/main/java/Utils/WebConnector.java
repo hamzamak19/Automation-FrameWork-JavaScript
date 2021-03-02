@@ -9,9 +9,6 @@ import java.io.IOException;
 import java.util.Properties;
 
 
-
-
-
 public class WebConnector {
     public static Properties prop = new Properties();
     public static FileInputStream ip;
@@ -27,11 +24,8 @@ public class WebConnector {
 
     public  WebConnector() throws IOException {
 
-        if (driver!=null)
+        if (driver==null)
         {
-
-        }
-        else {
             driver=Driver();
         }
     }
@@ -42,11 +36,12 @@ public class WebConnector {
         System.setProperty("webdriver.chrome.driver","Drivers/chromedriver.exe");
         String Browser = prop.getProperty("browser");
         System.out.println("Browser type = "+Browser);
+
         if (Browser.equals("headless"))
         {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("start-maximized");
-//            options.addArguments("headless");
+            options.addArguments("headless");
 //            ChromeDriver driver = new ChromeDriver(options);
             driver = new ChromeDriver(options);
             return driver;

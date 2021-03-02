@@ -1,2 +1,3 @@
 Utils\WebConnector.class
+Locators\LocatorClass.class
 Utils\Wait.class

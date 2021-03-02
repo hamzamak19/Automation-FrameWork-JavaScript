@@ -1,0 +1,91 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Scenario: Test Scenario2",
+    "children" : [ {
+      "name" : "Given Wait for Seconds \"1\".",
+      "uid" : "2e77f5b656d58b6",
+      "parentUid" : "02a03b5d8d06c7234cc53844f4d0cdd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614688321599,
+        "stop" : 1614688321601,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "When Open URL \"https://Google.com\".",
+      "uid" : "802072cf8dda2d50",
+      "parentUid" : "02a03b5d8d06c7234cc53844f4d0cdd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614688329919,
+        "stop" : 1614688329919,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "When Wait for Seconds \"3\".",
+      "uid" : "ff36707ba5cb4228",
+      "parentUid" : "02a03b5d8d06c7234cc53844f4d0cdd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614688332938,
+        "stop" : 1614688332938,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "02a03b5d8d06c7234cc53844f4d0cdd7"
+  }, {
+    "name" : "Scenario: Test Scenario",
+    "children" : [ {
+      "name" : "Given Wait for Seconds \"1\".",
+      "uid" : "5ad9be4477cf7305",
+      "parentUid" : "746c3c7e3410571fb2fef67732f29805",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614688321718,
+        "stop" : 1614688322441,
+        "duration" : 723
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "When Open URL \"https://Google.com\".",
+      "uid" : "d8c95ae2cc6b9650",
+      "parentUid" : "746c3c7e3410571fb2fef67732f29805",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614688329812,
+        "stop" : 1614688329813,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "When Wait for Seconds \"3\".",
+      "uid" : "d80a6cef8e758d21",
+      "parentUid" : "746c3c7e3410571fb2fef67732f29805",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614688332830,
+        "stop" : 1614688332830,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "746c3c7e3410571fb2fef67732f29805"
+  } ]
+}
