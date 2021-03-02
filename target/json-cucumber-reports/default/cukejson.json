@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Test Scenario",
+        "description": "",
+        "id": "test-feature;test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4760692400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Wait for Seconds \"1\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 18
+                }
+              ],
+              "location": "TestFile.WaitForSeconds(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3207012799,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "#    When This is First Feature Line \"https://Google.com\"."
+              }
+            ],
+            "line": 8,
+            "name": "Open URL \"https://Google.com\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://Google.com",
+                  "offset": 10
+                }
+              ],
+              "location": "TestFile.OpenURL(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2999507200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Wait for Seconds \"3\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "TestFile.WaitForSeconds(String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@nazoor"
+          }
+        ]
+      }
+    ],
+    "name": "Test Feature",
+    "description": "",
+    "id": "test-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/CucumberFile.feature"
+  }
+]

@@ -1,0 +1,61 @@
+[ {
+  "uid" : "2eaa3e99964c3ef2",
+  "name" : "When This is First Feature Line \"https://Facebook.com\".",
+  "time" : {
+    "start" : 1614669021406,
+    "stop" : 1614669021406,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72a3e1c525b71dd0",
+  "name" : "When This is First Feature Line \"https://Google.com\".",
+  "time" : {
+    "start" : 1614669014530,
+    "stop" : 1614669014530,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3557ef6ebb93813d",
+  "name" : "When Wait for Seconds \"3\".",
+  "time" : {
+    "start" : 1614669024421,
+    "stop" : 1614669024421,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79b787268737b308",
+  "name" : "Given Wait for Seconds \"3\".",
+  "time" : {
+    "start" : 1614669004910,
+    "stop" : 1614669004918,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56718c4bdc9959cf",
+  "name" : "Given Wait for Seconds \"3\".",
+  "time" : {
+    "start" : 1614669004955,
+    "stop" : 1614669004958,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21278ed332dfb713",
+  "name" : "When Wait for Seconds \"3\".",
+  "time" : {
+    "start" : 1614669017560,
+    "stop" : 1614669017561,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

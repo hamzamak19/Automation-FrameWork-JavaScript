@@ -1,0 +1,56 @@
+{
+  "uid" : "72a3e1c525b71dd0",
+  "name" : "When This is First Feature Line \"https://Google.com\".",
+  "fullName" : "Scenario: Test Scenario.When This is First Feature Line \"https://Google.com\".",
+  "historyId" : "b02ba2a2afbc292739e684f321437414",
+  "time" : {
+    "start" : 1614669014530,
+    "stop" : 1614669014530,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "Scenario: Test Scenario"
+  }, {
+    "name" : "testMethod",
+    "value" : "When This is First Feature Line \"https://Google.com\"."
+  }, {
+    "name" : "suite",
+    "value" : "Scenario: Test Scenario"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-684214K"
+  }, {
+    "name" : "thread",
+    "value" : "20468@DESKTOP-684214K.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "72a3e1c525b71dd0.json",
+  "parameterValues" : [ ]
+}
