@@ -4,69 +4,291 @@
     "elements": [
       {
         "line": 5,
-        "name": "Test Scenario",
+        "name": "User Should be Able To Register on to site.",
         "description": "",
-        "id": "test-feature;test-scenario",
+        "id": "register;user-should-be-able-to-register-on-to-site.",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 6944273000,
+              "duration": 12955333200,
               "status": "passed"
             },
-            "line": 6,
-            "name": "Wait for Seconds \"1\".",
+            "line": 7,
+            "name": "URL Should Open Successfully.",
             "match": {
-              "arguments": [
-                {
-                  "val": "1",
-                  "offset": 18
-                }
-              ],
-              "location": "TestFile.WaitForSeconds(String)"
+              "location": "Register.OpenURL()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 6637820300,
+              "duration": 131770700,
               "status": "passed"
             },
-            "comments": [
-              {
-                "line": 7,
-                "value": "#    When This is First Feature Line \"https://Google.com\"."
-              }
-            ],
             "line": 8,
-            "name": "Open URL \"https://Google.com\".",
+            "name": "Verify User is on Home Screen.",
             "match": {
-              "arguments": [
-                {
-                  "val": "https://Google.com",
-                  "offset": 10
-                }
-              ],
-              "location": "TestFile.OpenURL(String)"
+              "location": "Register.VerifyHomeScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2122770100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Click On Register Button.",
+            "match": {
+              "location": "Register.ClickRegisterBtn()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 3000998700,
+              "duration": 83789400,
               "status": "passed"
             },
-            "line": 9,
-            "name": "Wait for Seconds \"3\".",
+            "line": 10,
+            "name": "User should be ble to Enter First name \"Nazoor\"",
             "match": {
               "arguments": [
                 {
-                  "val": "3",
-                  "offset": 18
+                  "val": "Nazoor",
+                  "offset": 40
                 }
               ],
-              "location": "TestFile.WaitForSeconds(String)"
+              "location": "Register.EnterFirstName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82492800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be ble to Enter Last name \"Ahmed\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ahmed",
+                  "offset": 39
+                }
+              ],
+              "location": "Register.EnterLastName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108498700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should be ble to Enter Email \"nazoorahmed@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nazoorahmed@gmail.com",
+                  "offset": 35
+                }
+              ],
+              "location": "Register.EnterEmail(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97252300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be ble to Enter Phone \"03359985988\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "03359985988",
+                  "offset": 35
+                }
+              ],
+              "location": "Register.EnterPhone(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103871600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should be ble to Enter Company \"Nisum\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nisum",
+                  "offset": 37
+                }
+              ],
+              "location": "Register.EnterCompany(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124831700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should be ble to Enter Address \"nisum building 3rd Floor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nisum building 3rd Floor",
+                  "offset": 37
+                }
+              ],
+              "location": "Register.EnterAddress(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102593400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should be ble to Enter Address2 \"nisum building 3rd Floor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nisum building 3rd Floor",
+                  "offset": 38
+                }
+              ],
+              "location": "Register.EnterAddress2(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80630900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User should be ble to Enter City \"Karachi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Karachi",
+                  "offset": 34
+                }
+              ],
+              "location": "Register.EnterCity(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95075800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should be ble to Enter State \"Pakistan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pakistan",
+                  "offset": 35
+                }
+              ],
+              "location": "Register.EnterState(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79594400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User should be ble to Enter PostalCode \"75850\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "75850",
+                  "offset": 40
+                }
+              ],
+              "location": "Register.EnterPostalCode(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98954300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should be ble to click Country Drop Down.",
+            "match": {
+              "location": "Register.CickCountryDropDown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 244320900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User should be ble to Enter Mobile Number \"03348524846\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "03348524846",
+                  "offset": 43
+                }
+              ],
+              "location": "Register.EnterNumber(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95749000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User should be ble to Enter Password \"123456789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456789",
+                  "offset": 38
+                }
+              ],
+              "location": "Register.EnterPassword(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120433700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User should be ble to Enter Confirm Password \"123456789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456789",
+                  "offset": 46
+                }
+              ],
+              "location": "Register.EnterConfirmPassword(String)"
             },
             "keyword": "When "
           }
@@ -79,10 +301,10 @@
         ]
       }
     ],
-    "name": "Test Feature",
+    "name": "Register",
     "description": "",
-    "id": "test-feature",
+    "id": "register",
     "keyword": "Feature",
-    "uri": "src/test/resources/Features/CucumberFile.feature"
+    "uri": "src/test/resources/Features/Register.feature"
   }
 ]
