@@ -2,31 +2,26 @@ package StepDefination;
 import Locators.LocatorClass;
 import Utils.Wait;
 import Utils.WebConnector;
+import cucumber.api.Scenario;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import io.qameta.allure.Allure;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.Properties;
-import static Utils.WebConnector.Driver;
-
 import static io.restassured.RestAssured.given;
 
 
+
 public class TestFile extends WebConnector{
+
 
     public TestFile() throws IOException {
 
     }
 
     public Properties prop = new Properties();
-    public FileInputStream ip= new FileInputStream("src\\test\\resources\\config.properties");
+    public FileInputStream ip= new FileInputStream("src/main/java/config.properties");
 
 
     @When("^Wait for Seconds \"([^\"]*)\".$")

@@ -1,26 +1,26 @@
 {
   "total" : 2,
   "items" : [ {
-    "uid" : "02a03b5d8d06c7234cc53844f4d0cdd7",
-    "name" : "Scenario: Test Scenario2",
+    "uid" : "3bf1117213acbb00cb3df7294fb26017",
+    "name" : "Register User",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 3
+      "total" : 1
     }
   }, {
-    "uid" : "746c3c7e3410571fb2fef67732f29805",
-    "name" : "Scenario: Test Scenario",
+    "uid" : "a4ece8a8197eacc7fd655c4480871d2c",
+    "name" : "Test2 Feature",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 3
+      "total" : 1
     }
   } ]
 }

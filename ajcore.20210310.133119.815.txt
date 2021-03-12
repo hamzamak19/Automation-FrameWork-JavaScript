@@ -1,0 +1,118 @@
+---- AspectJ Properties ---
+AspectJ Compiler 1.8.10 built on Monday Dec 12, 2016 at 19:07:48 GMT
+---- Dump Properties ---
+Dump file: ajcore.20210310.133119.815.txt
+Dump reason: org.aspectj.apache.bcel.classfile.ClassFormatException
+Dump on exception: true
+Dump at exit condition: abort
+---- Exception Information ---
+org.aspectj.apache.bcel.classfile.ClassFormatException: File: 'module-info': Invalid byte tag in constant pool: 19
+	at org.aspectj.apache.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:192)
+	at org.aspectj.apache.bcel.classfile.ClassParser.parse(ClassParser.java:131)
+	at org.aspectj.weaver.bcel.Utility.makeJavaClass(Utility.java:472)
+	at org.aspectj.weaver.bcel.BcelWorld.addSourceObjectType(BcelWorld.java:512)
+	at org.aspectj.weaver.tools.WeavingAdaptor.ensureDelegateInitialized(WeavingAdaptor.java:513)
+	at org.aspectj.weaver.tools.WeavingAdaptor$WeavingClassFileProvider.<init>(WeavingAdaptor.java:843)
+	at org.aspectj.weaver.tools.WeavingAdaptor.getWovenBytes(WeavingAdaptor.java:526)
+	at org.aspectj.weaver.tools.WeavingAdaptor.weaveClass(WeavingAdaptor.java:363)
+	at org.aspectj.weaver.loadtime.Aj.preProcess(Aj.java:121)
+	at org.aspectj.weaver.loadtime.ClassPreProcessorAgentAdapter.transform(ClassPreProcessorAgentAdapter.java:54)
+	at java.instrument/java.lang.instrument.ClassFileTransformer.transform(ClassFileTransformer.java:246)
+	at java.instrument/sun.instrument.TransformerManager.transform(TransformerManager.java:188)
+	at java.instrument/sun.instrument.InstrumentationImpl.transform(InstrumentationImpl.java:563)
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:800)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:698)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:621)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:579)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at cucumber.runtime.io.ResourceLoaderClassFinder.loadClass(ResourceLoaderClassFinder.java:38)
+	at cucumber.runtime.io.ResourceLoaderClassFinder.getDescendants(ResourceLoaderClassFinder.java:26)
+	at cucumber.runtime.java.MethodScanner.scan(MethodScanner.java:34)
+	at cucumber.runtime.java.JavaBackend.loadGlue(JavaBackend.java:86)
+	at cucumber.runtime.Runtime.<init>(Runtime.java:92)
+	at cucumber.runtime.Runtime.<init>(Runtime.java:70)
+	at cucumber.runtime.Runtime.<init>(Runtime.java:66)
+	at cucumber.api.junit.Cucumber.createRuntime(Cucumber.java:80)
+	at cucumber.api.junit.Cucumber.<init>(Cucumber.java:59)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:50)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)
+---- System Properties ---
+sun.desktop=windows
+awt.toolkit=sun.awt.windows.WToolkit
+java.specification.version=11
+sun.cpu.isalist=amd64
+sun.jnu.encoding=Cp1252
+java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\lib\idea_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\plugins\junit\lib\junit5-rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\plugins\junit\lib\junit-rt.jar;C:\Users\nsaleemi\OneDrive\Desktop\FrameWork\target\test-classes;C:\Users\nsaleemi\OneDrive\Desktop\FrameWork\target\classes;C:\Users\nsaleemi\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\nsaleemi\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\nsaleemi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\nsaleemi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\nsaleemi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\nsaleemi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\nsaleemi\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\nsaleemi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\nsaleemi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\nsaleemi\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\nsaleemi\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\nsaleemi\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\nsaleemi\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\nsaleemi\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\nsaleemi\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\nsaleemi\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\nsaleemi\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\nsaleemi\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\nsaleemi\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\nsaleemi\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\nsaleemi\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\nsaleemi\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\nsaleemi\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\nsaleemi\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\nsaleemi\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\nsaleemi\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\nsaleemi\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\nsaleemi\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\nsaleemi\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\Users\nsaleemi\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\Users\nsaleemi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\nsaleemi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\nsaleemi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nsaleemi\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\nsaleemi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\nsaleemi\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\nsaleemi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\nsaleemi\.m2\repository\io\rest-assured\json-schema-validator\4.3.3\json-schema-validator-4.3.3.jar;C:\Users\nsaleemi\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\nsaleemi\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\nsaleemi\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\nsaleemi\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\nsaleemi\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\nsaleemi\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\nsaleemi\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\nsaleemi\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\nsaleemi\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\nsaleemi\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\nsaleemi\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\nsaleemi\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\nsaleemi\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\nsaleemi\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\Users\nsaleemi\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\nsaleemi\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\nsaleemi\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\nsaleemi\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\nsaleemi\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\nsaleemi\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\nsaleemi\.m2\repository\org\hamcrest\java-hamcrest\2.0.0.0\java-hamcrest-2.0.0.0.jar;C:\Users\nsaleemi\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\nsaleemi\.m2\repository\org\hamcrest\hamcrest-library\2.2\hamcrest-library-2.2.jar;C:\Users\nsaleemi\.m2\repository\io\qameta\allure\allure-junit4\2.13.5\allure-junit4-2.13.5.jar;C:\Users\nsaleemi\.m2\repository\io\qameta\allure\allure-java-commons\2.13.5\allure-java-commons-2.13.5.jar;C:\Users\nsaleemi\.m2\repository\io\qameta\allure\allure-model\2.13.5\allure-model-2.13.5.jar;C:\Users\nsaleemi\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\nsaleemi\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\nsaleemi\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\nsaleemi\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\nsaleemi\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\nsaleemi\.m2\repository\ru\yandex\qatools\allure\allure-junit-adaptor\1.5.4\allure-junit-adaptor-1.5.4.jar;C:\Users\nsaleemi\.m2\repository\ru\yandex\qatools\allure\allure-java-aspects\1.5.4\allure-java-aspects-1.5.4.jar;C:\Users\nsaleemi\.m2\repository\ru\yandex\qatools\allure\allure-java-adaptor-api\1.5.4\allure-java-adaptor-api-1.5.4.jar;C:\Users\nsaleemi\.m2\repository\ru\yandex\qatools\allure\allure-java-annotations\1.5.4\allure-java-annotations-1.5.4.jar;C:\Users\nsaleemi\.m2\repository\ru\yandex\qatools\allure\allure-model\1.5.4\allure-model-1.5.4.jar;C:\Users\nsaleemi\.m2\repository\org\jvnet\jaxb2_commons\jaxb2-basics-runtime\0.9.3\jaxb2-basics-runtime-0.9.3.jar;C:\Users\nsaleemi\.m2\repository\ru\qatools\commons\properties\2.0.RC5\properties-2.0.RC5.jar;C:\Users\nsaleemi\.m2\repository\org\aspectj\aspectjrt\1.8.3\aspectjrt-1.8.3.jar;C:\Users\nsaleemi\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\nsaleemi\AppData\Roaming\JetBrains\IdeaIC2020.3\plugins\cucumber-java\lib\cucumber-jvmFormatter.jar
+java.vm.vendor=JetBrains s.r.o.
+sun.arch.data.model=64
+idea.test.cyclic.buffer.size=1048576
+user.variant=
+java.vendor.url=https://openjdk.java.net/
+user.timezone=Asia/Karachi
+os.name=Windows 10
+java.vm.specification.version=11
+sun.java.launcher=SUN_STANDARD
+user.country=US
+sun.boot.library.path=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\jbr\bin
+sun.java.command=com.intellij.rt.junit.JUnitStarter -ideVersion5 -junit4 Runner1Test
+jdk.debug=release
+sun.cpu.endian=little
+user.home=C:\Users\nsaleemi
+user.language=en
+java.specification.vendor=Oracle Corporation
+java.version.date=2020-10-20
+java.home=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\jbr
+file.separator=\
+java.vm.compressedOopsMode=Zero based
+line.separator=
+
+java.specification.name=Java Platform API Specification
+java.vm.specification.vendor=Oracle Corporation
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+user.script=
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.runtime.version=11.0.9+11-b1145.21
+user.name=nsaleemi
+path.separator=;
+os.version=10.0
+java.runtime.name=OpenJDK Runtime Environment
+file.encoding=UTF-8
+nodeNamesHandler=org.jetbrains.plugins.cucumber.java.run.CucumberTestTreeNodeManager
+java.vm.name=OpenJDK 64-Bit Server VM
+java.vendor.version=JBR-11.0.9.11-1145.21-jcef
+java.vendor.url.bug=https://bugreport.java.com/bugreport/
+java.io.tmpdir=C:\Users\nsaleemi\AppData\Local\Temp\
+java.version=11.0.9
+user.dir=C:\Users\nsaleemi\OneDrive\Desktop\FrameWork
+os.arch=amd64
+java.vm.specification.name=Java Virtual Machine Specification
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+sun.os.patch.level=
+java.library.path=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\jbr\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Maven\apache-maven-3.6.3\bin;C:\Users\nsaleemi\scoop\apps\yarn\current\global\node_modules\.bin;C:\Users\nsaleemi\scoop\apps\yarn\current\Yarn\bin;C:\Users\nsaleemi\scoop\apps\nvm\current\nodejs\nodejs;C:\Users\nsaleemi\scoop\apps\nodejs\current\bin;C:\Users\nsaleemi\scoop\apps\nodejs\current;C:\Users\nsaleemi\scoop\shims;C:\Users\nsaleemi\AppData\Local\Microsoft\WindowsApps;C:\Users\nsaleemi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Maven\apache-maven-3.6.3;;.
+java.vm.info=mixed mode
+java.vendor=JetBrains s.r.o.
+java.vm.version=11.0.9+11-b1145.21
+sun.io.unicode.encoding=UnicodeLittle
+java.class.version=55.0
+---- Command Line ---
+Empty
+---- Full Classpath ---
+Empty
+---- Compiler Messages ---
+Empty

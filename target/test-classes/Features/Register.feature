@@ -1,4 +1,4 @@
-Feature:  Register
+Feature:Register User
 
 
   @nazoor

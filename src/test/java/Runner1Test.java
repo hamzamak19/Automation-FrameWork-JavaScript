@@ -8,10 +8,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features=
                 "src/test/resources/Features/Register.feature",
-
-        plugin = {"html:target/cucumber-reports/cucumber-pretty","json:target/json-cucumber-reports/default/cukejson.json"},
         tags="@nazoor"
-//        junit = "--step-notifications"
+//        junit="--step-notifications"
 
 )
 

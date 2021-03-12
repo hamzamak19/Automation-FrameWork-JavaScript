@@ -4,91 +4,39 @@
   "children" : [ {
     "name" : "DESKTOP-684214K",
     "children" : [ {
-      "name" : "1652@DESKTOP-684214K.main(1)",
+      "name" : "10356@DESKTOP-684214K.main(1)",
       "children" : [ {
-        "name" : "When Wait for Seconds \"3\".",
-        "uid" : "ff36707ba5cb4228",
-        "parentUid" : "f7f065181eb7e0625143e24953da8a2e",
+        "name" : "User Should be Able To Register on to site.",
+        "uid" : "98f55d0634df7c9b",
+        "parentUid" : "1f2269fb8d67e1c7d16605ab68045884",
         "status" : "passed",
         "time" : {
-          "start" : 1614688332938,
-          "stop" : 1614688332938,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Given Wait for Seconds \"1\".",
-        "uid" : "2e77f5b656d58b6",
-        "parentUid" : "f7f065181eb7e0625143e24953da8a2e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1614688321599,
-          "stop" : 1614688321601,
-          "duration" : 2
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "When Open URL \"https://Google.com\".",
-        "uid" : "802072cf8dda2d50",
-        "parentUid" : "f7f065181eb7e0625143e24953da8a2e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1614688329919,
-          "stop" : 1614688329919,
-          "duration" : 0
+          "start" : 1615532943458,
+          "stop" : 1615532968478,
+          "duration" : 25020
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "f7f065181eb7e0625143e24953da8a2e"
+      "uid" : "1f2269fb8d67e1c7d16605ab68045884"
     }, {
-      "name" : "7608@DESKTOP-684214K.main(1)",
+      "name" : "24192@DESKTOP-684214K.main(1)",
       "children" : [ {
-        "name" : "When Open URL \"https://Google.com\".",
-        "uid" : "d8c95ae2cc6b9650",
-        "parentUid" : "cf40f45fb74661cf5bcdeda190ee9acf",
+        "name" : "Test Scenario2",
+        "uid" : "e073e9dcb29e19a0",
+        "parentUid" : "db9377de23587be5021dd49f3b8ab995",
         "status" : "passed",
         "time" : {
-          "start" : 1614688329812,
-          "stop" : 1614688329813,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Given Wait for Seconds \"1\".",
-        "uid" : "5ad9be4477cf7305",
-        "parentUid" : "cf40f45fb74661cf5bcdeda190ee9acf",
-        "status" : "passed",
-        "time" : {
-          "start" : 1614688321718,
-          "stop" : 1614688322441,
-          "duration" : 723
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "When Wait for Seconds \"3\".",
-        "uid" : "d80a6cef8e758d21",
-        "parentUid" : "cf40f45fb74661cf5bcdeda190ee9acf",
-        "status" : "passed",
-        "time" : {
-          "start" : 1614688332830,
-          "stop" : 1614688332830,
-          "duration" : 0
+          "start" : 1615532943562,
+          "stop" : 1615532959293,
+          "duration" : 15731
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "cf40f45fb74661cf5bcdeda190ee9acf"
+      "uid" : "db9377de23587be5021dd49f3b8ab995"
     } ],
     "uid" : "b73ea42593c250eefe65fae03bc9ed33"
   } ]

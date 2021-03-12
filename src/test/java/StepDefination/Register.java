@@ -7,6 +7,8 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 
+
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
@@ -14,28 +16,31 @@ import java.util.Properties;
 public class Register extends WebConnector {
 
     public Properties prop = new Properties();
-    public FileInputStream ip = new FileInputStream("src\\test\\resources\\config.properties");
+    public FileInputStream ip = new FileInputStream("src/main/java/config.properties");
 
 
     public Register() throws IOException {
     }
 
 
-    @Given("URL Should Open Successfully.$")
+    @Given("^URL Should Open Successfully.$")
     public void OpenURL() throws IOException {
+
+        System.out.println("------FIRST STEP");
         prop.load(ip);
         String URL = prop.getProperty("TestWebSiteURL");
         WebConnector.driver.get(URL);
     }
 
 
-    @Then("Verify User is on Home Screen.$")
+    @Then("^Verify User is on Home Screen.$")
     public void VerifyHomeScreen() {
+        System.out.println("------SECOND  STEP");
         String Expected = "Login This page is restricted";
         String HeadingText=RegisterPage.GetHeadingText().getText();
         Assert.assertEquals(Expected,HeadingText);
     }
-    @When("User Click On Register Button.$")
+    @When("^User Click On Register Button.$")
     public void ClickRegisterBtn() {
         RegisterPage.RegisterButton().click();
     }

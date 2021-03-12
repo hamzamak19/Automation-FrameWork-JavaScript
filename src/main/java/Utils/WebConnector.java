@@ -16,7 +16,7 @@ public class WebConnector {
 
     static {
         try {
-            ip = new FileInputStream("src\\test\\resources\\config.properties");
+            ip = new FileInputStream("src/main/java/config.properties");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

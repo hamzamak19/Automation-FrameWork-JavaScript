@@ -1,0 +1,132 @@
+{
+  "uid" : "e073e9dcb29e19a0",
+  "name" : "Test Scenario2",
+  "fullName" : "Test2 Feature: Test Scenario2",
+  "historyId" : "7d2e9f0925cae120f0bf7fa86b2b4a0e",
+  "time" : {
+    "start" : 1615532943562,
+    "stop" : 1615532959293,
+    "duration" : 15731
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Wait for Seconds \"1\".",
+      "time" : {
+        "start" : 1615532943577,
+        "stop" : 1615532953087,
+        "duration" : 9510
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  Open URL \"https://Google.com\".",
+      "time" : {
+        "start" : 1615532953092,
+        "stop" : 1615532956292,
+        "duration" : 3200
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "First Feature Line",
+        "time" : {
+          "start" : 1615532956070,
+          "stop" : 1615532956070,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  Wait for Seconds \"3\".",
+      "time" : {
+        "start" : 1615532956293,
+        "stop" : 1615532959293,
+        "duration" : 3000
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test2 Feature"
+  }, {
+    "name" : "story",
+    "value" : "Test Scenario2"
+  }, {
+    "name" : "tag",
+    "value" : "nazoor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-684214K"
+  }, {
+    "name" : "thread",
+    "value" : "24192@DESKTOP-684214K.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Test2 Feature"
+  }, {
+    "name" : "suite",
+    "value" : "Test2 Feature"
+  }, {
+    "name" : "testClass",
+    "value" : "Test Scenario2"
+  }, {
+    "name" : "framework",
+    "value" : "cucumberjvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "nazoor" ]
+  },
+  "source" : "e073e9dcb29e19a0.json",
+  "parameterValues" : [ ]
+}
