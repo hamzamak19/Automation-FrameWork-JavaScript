@@ -21,3 +21,4 @@ Feature:Register User
     When User should be ble to Enter Mobile Number "03348524846"
     When User should be ble to Enter Password "123456789"
     When User should be ble to Enter Confirm Password "123456789"
+    When User should be ble to Enter name "Hamza"

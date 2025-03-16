@@ -2,6 +2,7 @@ package StepDefination;
 import Locators.LocatorClass;
 import Utils.Wait;
 import Utils.WebConnector;
+import cucumber.api.PendingException;
 import cucumber.api.Scenario;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
@@ -109,4 +110,9 @@ public class TestFile extends WebConnector{
 
     }
 
+    @When("^User should be ble to Enter name \"([^\"]*)\"$")
+    public void userShouldBeBleToEnterName(String arg0) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
 }
